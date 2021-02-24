@@ -26,7 +26,9 @@ SECRET_KEY = 'v)%q*st481q0p(1eri&%8i)es1+v_c3#ula+kt-2(@&2d#d6l8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'django-vidly.herokuapp.com'
+]
 
 
 # Application definition
